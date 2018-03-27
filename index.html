@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Hairdresser Hans</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#appointment">Make an appointment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutus">About us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <hr/>
+
+    <!-- Carrousel -->
+    <div class="container" id="carrousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel-img">
+            <img class="d-block carousel-img" src="images/Captura.JPG" alt="First slide">
+          </div>
+          <div class="carousel-item carousel-img">
+            <img class="d-block carousel-img" src="images/Captura.JPG" alt="Second slide">
+          </div>
+          <div class="carousel-item carousel-img">
+            <img class="d-block carousel-img" src="images/Captura.JPG" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <hr/>
+
+    <!-- Our services -->
+    <div class="container text-center" id="ourservices">
+      <h3>Our services</h3>
+      <div class="row mx-auto">
+        <div class="col col-md-4 text-center">
+          <div class="card">
+            <div class="card-body removepadding">
+              <div class="text-left cardheading-text" >Styling</div>
+              <div class="text-center cardheading-icon">IMG</div>
+            </div>
+            <img class="card-img-bottom cardheading-img" src="images/Captura.JPG" alt="Img">
+          </div>
+        </div>
+        <div class="col col-md-4 text-center">
+          <div class="card">
+            <div class="card-body removepadding">
+              <div class="text-left cardheading-text" >Coloring</div>
+              <div class="text-center cardheading-icon">IMG</div>
+            </div>
+            <img class="card-img-bottom cardheading-img" src="images/Captura.JPG" alt="Img">
+          </div>
+        </div>
+        <div class="col col-md-4 text-center">
+          <div class="card">
+            <div class="card-body removepadding">
+              <div class="text-left cardheading-text" >Haircuts</div>
+              <div class="text-center cardheading-icon">IMG</div>
+            </div>
+            <img class="card-img-bottom cardheading-img" src="images/Captura.JPG" alt="Img">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr/>
+
+    <!-- Make an appointment -->
+    <div class="container text-center" id="appointment">
+      <h3>Make an appointment</h3>
+      <p/>
+      <div class="row mx-auto">
+        <div class="col col-md-6 text-center">
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="txtname" placeholder="First and last name">
+            </div>
+            <div class="form-group">
+              <input type="tel" class="form-control" id="txttel" placeholder="Phone number">
+            </div>
+            <div class="form-group">
+              <input type="date" class="form-control" id="txtdate" placeholder="Date">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="txtnotes" rows="8" placeholder="Other info (haircut, wishes, etc.)"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="col col-md-6 text-center">
+          <table class="table">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">Day</th>
+                <th scope="col">Working hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>08:00 - 16:00</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>08:00 - 16:00</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>08:00 - 16:00</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>08:00 - 16:00</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>08:00 - 16:00</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>08:00 - 16:00</td>
+              </tr>
+              <tr>
+                <td>Monday</td>
+                <td>08:00 - 16:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <hr/>
+
+    <!-- FAQ -->
+    <div class="container text-center" id="faq">
+      <h3>FAQ (frequently asked questions)</h3>
+      <div class="row mx-auto text-left">
+        <button class="accordion">Do you have gift certificates?</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+        </div>
+        <button class="accordion">Can i bring my pet along?</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+        </div>
+        <button class="accordion">What awards did you receive so far?</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- About us -->
+    <div class="container invisible" id="aboutus">
+    </div>
+
+    <hr/>
+
+    <!-- Footer -->
+    <div class="container">
+      <div class="row mx-auto">
+        <div class="col col-md-4 text-left">
+          <h5>Contact</h5>
+            <ul>
+              <li>Friseur Hans GmbH</li>
+              <li>Tax number: 23234234234</li>
+              <li>C Casal dels Mogoda 161</li>
+              <li>08130 Santa Perpètua</li>
+              <li>España</li>
+            </ul>
+        </div>
+        <div class="col col-md-4 text-center">
+          2 of 3
+        </div>
+        <div class="col col-md-4 text-right">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="#ourservices">Our services</a></li>
+            <li><a href="#appointment">Make an appointment</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#aboutus">About us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
